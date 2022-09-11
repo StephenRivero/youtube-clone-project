@@ -28,7 +28,10 @@ const SearchBar = () => {
                 border: '1px solid #e3e3e3',
                 pl: 2,
                 boxShadow: 'none',
-                mr: { sm: 5 }
+                mr: { sm: 5 },
+                display: 'flex', 
+                flex:'nowrap',
+                xs: '150px' 
             }}
         >
             <input 
@@ -36,6 +39,7 @@ const SearchBar = () => {
                 placeholder='Search...'
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
+                sx={{ xs: '150px' }}
             />
             <IconButton type="submit" sx={{ p: '10px', color: 'red' }}>
                 <Search />

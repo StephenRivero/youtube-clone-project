@@ -85,4 +85,13 @@ a {
   .search-bar{
     width:200px;
   }
+  
+}
+
+@media screen and (max-width: 350px) {
+  .search-bar{
+    border:none;
+    outline:none;
+    width:150px;
+  }
 }
