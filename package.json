@@ -1,6 +1,5 @@
 {
   "homepage": "http://StephenRivero.github.io/youtube-clone-project/",
-  "name": "youtube-clone-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
